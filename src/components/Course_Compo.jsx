@@ -13,14 +13,14 @@ const Course = () => {
         <p className='text-center'>Lorem ipsum dolor sit amet, consectetur adipisicing elit?</p>
         </div>
     </div>
-    <div className="row d-flex justify-content-center align-items-center">
-        <div className="col-md-3 m-2">
+    <div className="row d-flex justify-content-center align-items-center cards">
+        <div className="col-md-3 m-md-2">
         <CourseCards/>
         </div>
-        <div className="col-md-3 m-2">
+        <div className="col-md-3 m-md-2">
         <CourseCards/>
         </div>
-        <div className="col-md-3 m-2">
+        <div className="col-md-3 m-md-2">
         <CourseCards/>
         </div>
     </div>

@@ -76,6 +76,7 @@ const Footer = () => {
             <p className="text-center">© 2025 Smart Edu. All Rights Reserved</p>
           </div>
         </div>
+        
       </div>
     </>
   );

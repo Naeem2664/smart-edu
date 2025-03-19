@@ -8,8 +8,8 @@
     padding: 10;
   }
   .head-vector{
-    width: 100%;
     padding: 20px;
+    display: inline;
   }
   .head-vector img{
     width: 500px;

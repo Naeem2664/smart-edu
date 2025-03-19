@@ -20,68 +20,58 @@ const Main_Landing_Page = () => {
       <div className="container-fluid header">
         <div className="container header-container">
           <div className="row">
-            <nav className="navbar navbar-expand-lg navbar-light w-100  mt-3">
-              <div className="container">
-                <a className="navbar-brand d-flex align-items-center" href="#home">
-                  <MdOutlineMenuBook
-                    style={{
-                      fontSize: "30px",
-                      color: "#800080",
-                      marginRight: "10px",
-                      marginBottom: "5px",
-                    }}
-                  />{" "}
-                  Smart Edu
-                </a>
+          <nav className="navbar navbar-expand-lg navbar-light w-100 mt-3">
+      <div className="container">
+        <a className="navbar-brand d-flex align-items-center" href="#home">
+          <MdOutlineMenuBook
+            style={{
+              fontSize: "30px",
+              color: "#800080",
+              marginRight: "10px",
+              marginBottom: "5px",
+            }}
+          />
+          Smart Edu
+        </a>
 
-                <button
-                  className="navbar-toggler ms-auto"
-                  type="button"
-                  onClick={() => setMenuOpen(!menuOpen)}
-                >
-                  <GiHamburgerMenu
-                    style={{
-                      fontSize: "30px",
-                      color: "#800080",
-                    }}
-                  />
-                </button>
-
-                <div
-                  className={`collapse navbar-collapse justify-content-end align-items-center${
-                    menuOpen ? "show" : ""
-                  }`}
-                >
-                  <ul className="navbar-nav align-items-center">
-                    <li className="nav-item active">
-                      <a className="nav-link" href="#home">
-                        Home
-                      </a>
-                    </li>
-                    <li className="nav-item">
-                      <a className="nav-link" href="#courses">
-                        Courses
-                      </a>
-                    </li>
-                    <li className="nav-item">
-                      <a className="nav-link" href="#testimonials">
-                        Testimonials
-                      </a>
-                    </li>
-                    <li className="nav-item">
-                      <a className="nav-link" href="#faculty">
-                        Faculty
-                      </a>
-                    </li>
-                    <li className="nav-item">
-                      <a className="nav-link" href="#">
-                        <button className="sign-in-btn"> Sign In</button>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </nav>
+        <button
+          className="navbar-toggler"
+          type="button"
+          onClick={() => setMenuOpen(!menuOpen)}
+        >
+          <GiHamburgerMenu style={{ fontSize: "30px", color: "#800080" }} />
+        </button>
+        <div className={`navbar-collapse ${menuOpen ? "show" : "collapse"}`}>
+          <ul className="navbar-nav ms-auto align-items-center">
+            <li className="nav-item active">
+              <a className="nav-link" href="#home">
+                Home
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#courses">
+                Courses
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#testimonials">
+                Testimonials
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#faculty">
+                Faculty
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#">
+                <button className="sign-in-btn"> Sign In</button>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
           </div>
           <div className="row header-content align-items-center mt-5">
             <div className="col-md-5">
