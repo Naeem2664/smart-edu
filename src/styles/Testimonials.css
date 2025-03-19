@@ -1,0 +1,11 @@
+.carousel-container{
+    
+    width: 60vw;
+
+}
+.lower-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}

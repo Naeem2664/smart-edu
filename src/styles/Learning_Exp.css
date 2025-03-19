@@ -1,0 +1,37 @@
+.learning-experience{
+    padding: 20px;
+    background-color: #fff9eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.learning-experience .learning-experience-content{
+   margin-top:40px ;
+}
+.learning-experience .learning-experience-description{
+    margin-top: 40px;
+}
+.learning-experience .learning-experience-description-content{
+    display: flex;
+}
+.learning-experience-description-content .text-box p{
+    font-size: 13px;
+    color: #858585;
+}
+.icon-box {
+    background-color: #800080;
+    border-radius: 12px;
+    padding: 15px;
+    display: flex;
+    justify-content: top;
+    align-items: top;
+    width: 67px;
+    height: 67px;
+  }
+  .icon-box img{
+    width: 90%;
+    height: 90%;
+  }
